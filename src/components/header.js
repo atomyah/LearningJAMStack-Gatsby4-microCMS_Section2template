@@ -20,7 +20,7 @@ const Header = ({ siteTitle }) => (
                         <Link to="/jigyo" class="text-gray-700 hover:text-gray-400">事業内容</Link>
                     </div>
                     <div class="block mt-4 lg:inline-block lg:mt-0 text-gray-700 hover:text-gray-400 mr-4">
-                         <Link to="" class="text-gray-700 hover:text-gray-400">インフォメーション</Link>
+                         <Link to="/information" class="text-gray-700 hover:text-gray-400">インフォメーション</Link>
                     </div>
                     <div class="block mt-4 lg:inline-block lg:mt-0 text-gray-700 hover:text-gray-400 mr-4">    
                         <Link to="/form" class="text-gray-700 hover:text-gray-400">お問い合わせ</Link>

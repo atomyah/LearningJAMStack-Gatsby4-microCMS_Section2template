@@ -22,7 +22,8 @@ const FormPage = () => (
                 <form>
                     <div class="form-group mb-6">
                     <label for="formName" class="form-label inline-block mb-2 text-gray-700">お名前</label>
-                        <input type="text" class="form-control block
+                        <input type="text" id="formName"
+                            class="form-control block
                             w-full
                             px-3
                             py-1.5
@@ -33,12 +34,13 @@ const FormPage = () => (
                             border border-solid border-gray-300
                             rounded
                             m-0
-                            focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" id="formName"
+                            focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
                             placeholder="例：鈴木太郎" />
                     </div>
                     <label for="formEmail" class="form-label inline-block mb-2 text-gray-700">メールアドレス</label>
                     <div class="form-group mb-6">
-                        <input type="email" class="form-control block
+                        <input type="email" id="formEmail"
+                            class="form-control block
                             w-full
                             px-3
                             py-1.5
@@ -49,12 +51,12 @@ const FormPage = () => (
                             border border-solid border-gray-300
                             rounded
                             m-0
-                            focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" id="formEmail"
+                            focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
                             placeholder="例：atom@yah-space.work" />
                     </div>
                     <label for="formTextarea" class="form-label inline-block mb-2 text-gray-700">メッセージ</label>
                     <div class="form-group mb-6">
-                        <textarea
+                        <textarea id="formTextarea"
                         class="
                             form-control
                             block
@@ -70,28 +72,10 @@ const FormPage = () => (
                             m-0
                             focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none
                         "
-                        id="formTextarea"
                         rows="3"
                         placeholder=""
                         ></textarea>
                     </div>
-                    <div class="form-group mb-12">
-                    <label for="formFile" class="form-label inline-block mb-2 text-gray-700">添付ファイル</label>
-                        <input class="form-control
-                            block
-                            w-full
-                            px-3
-                            py-1.5
-                            text-base
-                            font-normal
-                            text-gray-700
-                            bg-white
-                            border border-solid border-gray-300
-                            rounded
-                            m-0
-                            focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" type="file" id="formFile" />
-                    </div>
-
                     <div class="form-group mb-2">
                         <button type="submit" class="
                             w-2/12
