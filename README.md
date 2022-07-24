@@ -5,7 +5,7 @@
   </a>
 </p>
 <h1 align="center">
-  書籍『Gatsby4＋Tailwind CSS＋Gatsby Cloudでつくるコーポレートサイト』Lesson2完了時ソースコード
+  書籍『Gatsby4＋Tailwind CSS＋Gatsby Cloudでつくるコーポレートサイト』改訂新版 前編 Lesson2完了時ソースコード
 </h1>
 
 <hr>
